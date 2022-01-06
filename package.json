@@ -1,0 +1,51 @@
+{
+  "name": "masarang",
+  "version": "1.0.0",
+  "description": "익명 질문 서비스",
+  "main": "index.js",
+  "scripts": {
+    "dev": "PROFILE=develop next -p 4001",
+    "dev:debug": "NODE_OPTIONS='--inspect' next dev -p 4001",
+    "build": "next build",
+    "type-check": "tsc",
+    "start": "next start"
+  },
+  "author": "totuworld",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "autoprefixer": "^10.2.1",
+    "axios": "^0.21.1",
+    "firebase": "^8.2.3",
+    "firebase-admin": "^9.4.2",
+    "json-schema": "^0.3.0",
+    "next": "^10.2.3",
+    "postcss": "^8.2.4",
+    "react": "^17.0.1",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "^17.0.1",
+    "sass": "^1.32.4",
+    "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.21",
+    "@types/react": "^17.0.0",
+    "@types/react-copy-to-clipboard": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}

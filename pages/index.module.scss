@@ -1,0 +1,21 @@
+.boxShadow {
+  box-shadow: 0 0 0 2px #2563EB;
+}
+
+.inputConfirm {
+  box-sizing: border-box;
+  margin-right: 6px;
+  min-width: 0;
+  // position: absolute;
+  // top: 0;
+  // right: 0;
+  // bottom: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #2563EB;
+  svg {
+    height: 24px;
+  }
+}
